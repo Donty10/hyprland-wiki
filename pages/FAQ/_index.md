@@ -241,7 +241,9 @@ env = XDG_CURRENT_DESKTOP,Hyprland
 
 ### How to disable middle-click paste?
 
-You can simply intercept the middle-click action all together via Hyprland
+You can disable middle-click paste by setting `misc:middle_click_paste = true`:
+
+Alternatively, you can simply intercept the middle-click action all together via Hyprland
 binds. However, there are drawbacks to this solution. It disables the
 rest of the functionality of the middle-click action, such as auto scroll,
 closing browser tabs, etc. Additionally, many applications (such as kitty) manually
